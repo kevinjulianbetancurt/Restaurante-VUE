@@ -13,6 +13,9 @@ import Pedidos from '../views/Pedidos';
 import EditarPedido from '../components/pedidos/EditarPedido.vue';
 import NewPedido from '../components/pedidos/NewPedido.vue';
 
+import Clientes from '../views/Clientes';
+
+
 
 const routes = [
   {
@@ -64,6 +67,11 @@ const routes = [
     path: '/add-pedido/',
     name: 'NewPedido',
     component: NewPedido
+  },
+  {
+    path: '/clientes',
+    name: 'Clientes',
+    component: Clientes
   },
   {
     path: '/about',
