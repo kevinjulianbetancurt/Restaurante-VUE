@@ -17,6 +17,7 @@ import NewCliente from '../components/clientes/NewCliente.vue';
 import EditarCliente from '../components/clientes/EditarCliente.vue';
 import Clientes from '../views/Clientes';
 
+import EditarEmpleado from '../components/empleados/EditarEmpleado.vue';
 import Empleados from '../views/Empleados';
 
 const routes = [
@@ -89,6 +90,11 @@ const routes = [
     path: '/empleados',
     name: 'Empleados',
     component: Empleados
+  },
+  {
+    path: '/editar-empleado/:id',
+    name: 'EditarEmpleado',
+    component: EditarEmpleado
   },
   {
     path: '/about',
