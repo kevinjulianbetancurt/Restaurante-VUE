@@ -6,6 +6,7 @@
     <router-link to="/reservas">Reservas</router-link> |
     <router-link to="/pedidos">Pedidos</router-link> |
     <router-link to="/clientes">Clientes</router-link> |
+    <router-link to="/empleados">Empleados</router-link> 
 
   </nav>
   <router-view/>
