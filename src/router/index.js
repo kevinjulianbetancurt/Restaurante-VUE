@@ -9,6 +9,7 @@ import Reservas from '../views/Reservas';
 import EditarReserva from '../components/reservas/EditarReserva.vue';
 import NewReserva from '../components/reservas/NewReserva.vue';
 
+import Pedidos from '../views/Pedidos';
 
 
 const routes = [
@@ -46,6 +47,11 @@ const routes = [
     path: '/add-reserva/',
     name: 'NewReserva',
     component: NewReserva
+  },
+  {
+    path: '/pedidos',
+    name: 'Pedidos',
+    component: Pedidos
   },
   {
     path: '/about',
