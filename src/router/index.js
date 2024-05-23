@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 import Menus from '../views/Menus';
+import EditarMenu from '../components/menus/EditarMenu.vue';
 
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     path: '/menus',
     name: 'Menus',
     component: Menus
+  },
+  {
+    path: '/editar-menu/:id',
+    name: 'EditarMenu',
+    component: EditarMenu
   },
   {
     path: '/about',
