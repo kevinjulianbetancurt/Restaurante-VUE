@@ -5,6 +5,8 @@ import Menus from '../views/Menus';
 import EditarMenu from '../components/menus/EditarMenu.vue';
 import NewMenu from '../components/menus/NewMenu.vue';
 
+import Reservas from '../views/Reservas';
+
 
 
 const routes = [
@@ -27,6 +29,11 @@ const routes = [
     path: '/add-menu/',
     name: 'NewMenu',
     component: NewMenu
+  },
+  {
+    path: '/reservas',
+    name: 'Reservas',
+    component: Reservas
   },
   {
     path: '/about',
