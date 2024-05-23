@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 
 import Menus from '../views/Menus';
 import EditarMenu from '../components/menus/EditarMenu.vue';
+import NewMenu from '../components/menus/NewMenu.vue';
+
 
 
 const routes = [
@@ -20,6 +22,11 @@ const routes = [
     path: '/editar-menu/:id',
     name: 'EditarMenu',
     component: EditarMenu
+  },
+  {
+    path: '/add-menu/',
+    name: 'NewMenu',
+    component: NewMenu
   },
   {
     path: '/about',
