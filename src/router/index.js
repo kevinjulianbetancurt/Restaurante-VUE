@@ -7,6 +7,7 @@ import NewMenu from '../components/menus/NewMenu.vue';
 
 import Reservas from '../views/Reservas';
 import EditarReserva from '../components/reservas/EditarReserva.vue';
+import NewReserva from '../components/reservas/NewReserva.vue';
 
 
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/editar-reserva/:id',
     name: 'EditarReserva',
     component: EditarReserva
+  },
+  {
+    path: '/add-reserva/',
+    name: 'NewReserva',
+    component: NewReserva
   },
   {
     path: '/about',
