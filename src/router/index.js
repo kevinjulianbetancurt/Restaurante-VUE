@@ -13,6 +13,7 @@ import Pedidos from '../views/Pedidos';
 import EditarPedido from '../components/pedidos/EditarPedido.vue';
 import NewPedido from '../components/pedidos/NewPedido.vue';
 
+import EditarCliente from '../components/clientes/EditarCliente.vue';
 import Clientes from '../views/Clientes';
 
 
@@ -72,6 +73,11 @@ const routes = [
     path: '/clientes',
     name: 'Clientes',
     component: Clientes
+  },
+  {
+    path: '/editar-cliente/:id',
+    name: 'EditarCliente',
+    component: EditarCliente
   },
   {
     path: '/about',
