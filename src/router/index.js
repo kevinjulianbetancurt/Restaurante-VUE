@@ -10,6 +10,7 @@ import EditarReserva from '../components/reservas/EditarReserva.vue';
 import NewReserva from '../components/reservas/NewReserva.vue';
 
 import Pedidos from '../views/Pedidos';
+import EditarPedido from '../components/pedidos/EditarPedido.vue';
 
 
 const routes = [
@@ -52,6 +53,11 @@ const routes = [
     path: '/pedidos',
     name: 'Pedidos',
     component: Pedidos
+  },
+  {
+    path: '/editar-pedido/:id',
+    name: 'EditarPedido',
+    component: EditarPedido
   },
   {
     path: '/about',
